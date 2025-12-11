@@ -1,0 +1,125 @@
+
+
+
+
+
+-
+
+界面内容
+
+itemmsg.morreoptionsavailable
+[shift]详情...
+
+itemmsgcontextualorders
+[[command]] 相关指令
+
+ItemMsgClose
+[[select]]关闭
+
+itemmsginteractselect
+[[select]]交互
+
+itemmsgopen
+[[select]]开启
+
+itemmsgpressselect
+[[select]]按下
+
+itemmsgpickupselect
+[[select]]捡起
+
+itemmsgclimbselect
+[[select]]攀爬
+
+itemmsgaddfertilizer
+[[select]]施肥
+
+itemmsgplantseed
+[[select]]植物种子
+
+itemmsgequipselect
+[[select]]装备
+
+itemmsgharvest
+[[select]]连根拔起
+
+itemmsgrepairweldingtool
+[[shoot]]修理 (需要焊接工具)
+
+itemmsguseplasmacutter
+[[shoot]]切割 (需要等离子切割器)
+
+itemmsgrepairwrench
+[[use]]修理 (需要扳手)
+
+itemmsgrepairscrewdriver
+[[use]]修理 (需要螺丝刀)
+
+itemmsgdetach
+[[use]]分离
+
+ItemMsgForceCloseCrowbar
+[[use]]强制关闭 (撬棍)
+
+itemmsgdetachwrench
+[[use]]拆卸 (需要扳手)
+
+itemmsgforceopencrowbar
+[[use]]撬开 (需要撬棍)
+
+itemmsggoinside
+[[use]]进入
+
+itemmsgrewirescrewdriver
+[[use]]重新布线 (需要螺丝刀)
+
+itemmsgtotalnumberlimited
+在该潜艇上放置了过多此类物品
+
+itemmsgammorequired
+弹药耗尽
+
+itemmsgpickupuse
+拾起[[use]]
+
+itemmsgoxygenrefill
+插入氧气罐来进行补给
+
+itemmsgrequiretraining
+放置此物品需要特殊训练.
+
+itemmsgsyringerequired
+注射器耗尽
+
+itemmsgoxygentankrequired
+需要氧气罐
+
+itemmsgweldingfuelrequired
+需要焊接油料
+
+itemmsgbatterycellrequired
+需要电池
+
+itemmsgpaintorcleaningagentrequired
+需要装填涂料或清洁剂
+
+itemmsgunauthorizedaccess
+非法闯入
+
+itemmsgspearrequired
+鱼叉耗尽
+
+[CurrentLocationName]
+当前 站点名
+
+[CurrentBiomeName]
+当前 生物群落
+
+[CurrentSubName]
+当前 当前船名
+
+-
+
+
+
+

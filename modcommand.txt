@@ -1,0 +1,99 @@
+
+
+
+
+
+-
+
+ag
+F3捣乱扫描
+
+ag reset
+重置
+
+ag volume 1
+设置警报音量
+
+ag list
+列出所有警报值
+
+Fentanyl 芬太尼 +F
+Morphine 吗啡 +M
+Opium 药用鸦片 OPI
+Fuel Rod 铀燃料棒 绿棒
+Thorium Fuel Rod 钍燃料棒 灰棒
+Rum 朗姆酒 大黄瓶
+Ethanol 酒精 90%
+Calyxanide 皮虫净 感染红叉
+Flash Powder 闪光粉
+Deliriumine 谵妄毒剂 DEL
+huskeggs 萼形体内转续拟寄生物提取物 生化图标
+Cyanide 氰化物毒剂 CN 可消画皮
+Radiotoxin 辐射毒剂 RAD
+Sufforin 升天毒剂 SUF 可消画皮
+Paralyzant 麻痹剂 PAR
+Chloral Hydrate 水合氯醛 CH
+Morbusine 窒死毒剂 MOB
+Detonator 雷管
+Timed Detonator 定时引爆器
+Nitroglycerin 硝化甘油 黄瓶黑炸图
+Incendium Grenade 燃素手榴弹 黄红管
+Frag Grenade 破片手榴弹 白灰球
+Stun Grenade 震撼手榴弹 M84
+EMP Grenade EMP手榴弹 白灰平滑
+Oxygenite Shard 氧矿碎片 棕绿似面罩
+NuclearShell 轨道炮核弹 Nuclear Railgun Shell
+Volatile Compound N 挥发性叠氮化合物 2500s
+Molotov Cocktail 莫洛托夫鸡尾酒 棕瓶黄标
+
+ag clients
+列出所有客户端信息
+
+ag threshold 30
+警告分 默认20
+
+ag decaytime 5000
+每毫秒失去的警告分
+
+ag add screwdriver 5
+添加或更新 警告值 螺丝刀 5
+
+ag remove screwdriver
+移除警告值 螺丝刀
+
+ag toggle self
+切换警告 默认全开 self reactor undock wiring detonators admin
+
+ag ban 名字 原因(可选)
+本地封禁
+
+-
+
+findsub
+find
+fs
+找船
+
+-
+
+tagprinter
+F3打印标签
+
+-
+
+默认75m
+使用qr_setdistance xx能更改距离限制
+使用qr_showdistance true/false能开关是否距离显示
+默认开
+两个命令都是服务器命令
+调用需要给予服务器权限
+
+42键可播报所有方位
+sos键播报需要治疗
+no键播报别让潜艇离开
+
+-
+
+
+
+

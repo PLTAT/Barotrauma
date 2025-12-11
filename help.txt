@@ -1,0 +1,461 @@
+
+
+
+
+
+ambientlight
+ambientlight [color]: Change the color of the ambient light in the level.
+
+autoitemplacerdebug
+autoitemplacerdebug: Toggle automatic item placer debug info on/off. The automatically placed items are listed in the debug console at the start of a round.
+
+autorestart
+autorestart [true/false]: Enable or disable round auto-restart.
+
+autorestartinterval
+autorestartinterval [seconds]: Set how long the server waits between rounds before automatically starting a new one. If set to 0, autorestart is disabled.
+
+autorestarttimer
+autorestarttimer [seconds]: Set the current autorestart countdown to the specified value.
+
+ballastflora
+infectballast [options]: Infect ballasts and control its growth.
+
+ban
+ban [name]: Kick and ban the player from the server.
+
+banaddress
+banaddress [endpoint]: Ban the IP address/SteamID from the server.
+
+banid
+banid [id]: Kick and ban the player with the specified client ID from the server. You can see the IDs of the clients using the command "clientlist".
+
+botcount
+botcount [x]: Set the number of bots in the crew in multiplayer.
+
+botspawnmode
+botspawnmode [fill/normal]: Set how bots are spawned in the multiplayer.
+
+calculatehashes
+calculatehashes [content package name]: Show the MD5 hashes of the files in the selected content package. If the name parameter is omitted, the first content package is selected.
+
+campaigndestination
+campaigndestination [index]: Set the location to head towards in the currently active campaign.
+
+campaigninfo
+campaigninfo: Display information about the state of the currently active campaign.
+
+clientlist
+clientlist: List all the clients connected to the server.
+
+control
+control [character name]: Start controlling the specified character (client-only).
+
+debugai
+Toggle the ai debug mode on/off (works properly only in single player).
+
+debugdraw
+Toggle the debug drawing mode on/off (client-only).
+
+debugdrawlocalization
+Toggle the localization debug drawing mode on/off (client-only). Colors all text that hasn't been fetched from a localization file magenta, making it easier to spot hard-coded or missing texts.
+
+debugdrawlos
+Toggle the los debug drawing mode on/off (client-only).
+
+debugevent
+debugevent [identifier]: outputs debug info about a specific event that's currently active. Mainly intended for debugging events in multiplayer: in single player, the same information is available by enabling debugdraw.
+
+debugjobassignment
+debugjobassignment: Shows information about how jobs were assigned for the most recent round.
+
+debugwiring
+Toggle the wiring debug mode on/off (client-only).
+
+despawnnow
+despawnnow [character]: Immediately despawns the specified dead character. If the character argument is omitted, all dead characters are despawned.
+
+devmode
+Toggle the dev mode on/off (client-only).
+
+difficulty
+difficulty [0-100]: Change the level difficulty setting in the server lobby.
+
+disablecrewai
+disablecrewai: Disable the AI of the NPCs in the crew.
+
+disableenemyai
+disableenemyai: Disable the AI of the Enemy characters (monsters).
+
+dumptofile
+findentityids [filename]: Outputs the contents of the debug console into a text file in the game folder. If the filename argument is omitted, "consoleOutput.txt" is used as the filename.
+
+enablecheats
+enablecheats: Enables cheat commands and disables Steam achievements during this play session.
+
+enablecrewai
+enablecrewai: Enable the AI of the NPCs in the crew.
+
+enableenemyai
+enableenemyai: Enable the AI of the Enemy characters (monsters).
+
+endgame
+end/endgame/endround: End the current round.
+
+eventmanager
+eventmanager: Toggle event manager on/off. No new random events are created when the event manager is disabled.
+
+exit
+exit/quit/close: Exit the application.
+
+explosion
+explosion [range] [force] [damage] [structuredamage] [item damage] [emp strength] [ballast flora strength]: Creates an explosion at the position of the cursor.
+
+findentityids
+findentityids [entityname]
+
+fire
+fire/editfire: Allows putting up fires by left clicking.
+
+fixhulls
+fixwalls/fixhulls: Fixes all walls.
+
+fixitems
+fixitems: Repairs all items and restores them to full condition.
+
+followsub
+Toggle whether the camera should follow the nearest submarine (client-only).
+
+freecamera
+freecam: Detach the camera from the controlled character.
+
+gamemode
+gamemode [name]/[index]: Select the game mode for the next round. The parameter can either be the name or the index number of the game mode (0 = sandbox, 1 = mission, etc).
+
+give
+give|giveitem [itemname/itemidentifier] [amount] [condition]: Spawn an item in the inventory of the controlled character
+
+giveaffliction
+giveaffliction [affliction name] [affliction strength] [character name] [limb type] [use relative strength]: Add an affliction to a character. If the name parameter is omitted, the affliction is added to the controlled character.
+
+givecommandperm
+givecommandperm [id/steamid/endpoint/name]: Gives the specified client the permission to use the specified console commands.
+
+giveexperience
+giveexperience [amount] [character]: Give experience to character.
+
+giveperm
+giveperm [id/steamid/endpoint/name]: Grants administrative permissions to the specified client.
+
+giverank
+giverank [id/steamid/endpoint/name]: Assigns a specific rank (= a set of administrative permissions) to the specified client.
+
+givetalent
+givetalent [talent] [player]: give the talent to the specified character. If the character argument is omitted, the talent is given to the controlled character.
+
+godmode
+godmode [character name] [remove afflictions (true/false)]: Toggle character godmode. Makes the targeted character invulnerable to damage. If the name parameter is omitted, the controlled character will receive godmode.
+
+godmode_mainsub
+godmode_mainsub: Toggle submarine godmode. Makes the main submarine invulnerable to damage.
+
+growthdelay
+growthdelay: Sets how long it takes for planters to attempt to advance a plant's growth.
+
+heal
+heal [character name] [all]: Restore the specified character to full health. If the name parameter is omitted, the controlled character will be healed. By default only heals common afflictions such as physical damage and blood loss: use the "all" argument to heal everything, including poisonings/addictions/etc.
+
+healme
+healme [all]: Restore controlled character to full health. By default only heals common afflictions such as physical damage and blood loss: use the "all" argument to heal everything, including poisonings/addictions/etc.
+
+hidemonsters
+Permanently hides in the character editor all the monsters that haven't been encountered in the game. Use "showmonsters" to undo.
+
+itemassemblies
+itemassemblies: List all the item assemblies available for spawning.
+
+items
+itemlist: List all the item prefabs available for spawning.
+
+kick
+kick [name]: Kick a player out of the server.
+
+kickid
+kickid [id]: Kick the player with the specified client ID out of the server.  You can see the IDs of the clients using the command "clientlist".
+
+kill
+kill [character]: Immediately kills the specified character.
+
+killall
+killall: Immediately kills all characters in the level.
+
+killdisconnectedtimer
+killdisconnectedtimer [seconds]: Set the time after which disconnect players' characters get automatically killed.
+
+killmonsters
+killmonsters: Immediately kills all AI-controlled enemies in the level.
+
+lighting
+Toggle lighting on/off (client-only).
+
+listcoroutines
+listcoroutines: Lists all coroutines currently running.
+
+listlocations
+listlocations: List all the locations in the level: subs, outposts, ruins, caves.
+
+listsuitabletreatments
+listsuitabletreatments [character name]: List which items are the most suitable for treating the specified character. Useful for debugging medic AI.
+
+listtasks
+listtasks: Lists all asynchronous tasks currently in the task pool.
+
+lock
+lock: Lock movement of the main submarine.
+
+lockx
+lockx: Lock horizontal movement of the main submarine.
+
+locky
+locky: Lock vertical movement of the main submarine.
+
+los
+Toggle the line of sight effect on/off (client-only).
+
+loslightingfreecam
+Toggles line of sight effect, lighting, and enables freecam mode. (client-only)
+
+maxupgrades
+maxupgrades [category] [prefab]: Maxes out all upgrades or only specific one if given arguments.
+
+mission
+mission [name]: Select the mission type for the next round.
+
+money
+money [amount] [character]: Gives the specified amount of money to the crew when a campaign is active.
+
+monstersignoreplayer
+Toggle if monsters should ignore the player character (and their equipment) when targeting.
+
+monstersignoresub
+Toggle if monsters should ignore the player submarines when targeting.
+
+monstersrestoretargets
+Remove any targeting restrictions from monsters.
+
+monstertargetingrestrictions
+monstertargetingrestrictions [restrictions]: Set targeting restrictions for all monsters. Supports multiple options comma-separated: 'monsterargetingrestrictions PlayerCharacters,PlayerSubmarines'. Use 'None' to remove all restrictions.
+
+msg
+msg [message]: Send a chat message with no sender specified.
+
+mute
+mute [name]: Prevent the client from speaking through the voice chat.
+
+netstats
+netstats: Toggles the visibility of the network statistics UI.
+
+oxygen
+oxygen/air: Replenishes the oxygen levels in every room to 100%.
+
+power
+power: Immediately powers up the submarine's nuclear reactor.
+
+ragdoll
+ragdoll [character name]: Force-ragdoll the specified character. If the name parameter is omitted, the controlled character will be ragdolled.
+
+randomizeseed
+randomizeseed: Toggles level seed randomization on/off.
+
+readycheck
+Commence a ready check.
+
+resetkarma
+resetkarma [client]: Resets the karma value of the specified client to 100.
+
+respawnnow
+respawnnow: Trigger a respawn immediately if there are any clients waiting to respawn.
+
+restart
+restart/reset: Close and restart the server.
+
+revive
+revive [character name]: Bring the specified character back from the dead. If the name parameter is omitted, the controlled character will be revived.
+
+revokecommandperm
+revokecommandperm [id/steamid/endpoint/name]: Revokes permission to use the specified console commands from the specified client.
+
+revokeperm
+revokeperm [id/steamid/endpoint/name]: Revokes administrative permissions from the specified client.
+
+say
+say [message]: Send a global chat message. When issued through the server command line, displays "HOST" as the sender.
+
+seed
+seed/levelseed: Changes the level seed for the next round.
+
+sendchatmessage
+sendchatmessage [sendername] [message] [type] [r] [g] [b] [a]: Sends a chat message with specified type and color.
+
+servermsg
+servermsg [message]: Change the message displayed in the server lobby.
+
+servername
+servername [name]: Change the name of the server.
+
+setcampaignmetadata
+setcampaignmetadata [identifier] [value]: Sets the specified campaign metadata value.
+
+setclientcharacter
+setclientcharacter [client name] [character name]: Gives the client control of the specified character.
+
+setdifficulty
+difficulty [0-100]. Leave the parameter empty to disable.
+
+setkarma
+setkarma [client] [0-100]: Sets the karma of the specified client to the specified value.
+
+setlocationreputation
+setlocationreputation [value]: Set the reputation in the current location to the specified value.
+改声誉
+
+setmaxplayers
+setmaxplayers [max players]: Sets the maximum player count of the server that's being hosted.
+
+setpassword
+setpassword [password]: Changes the password of the server that's being hosted.
+
+setreputation
+setreputation [faction] [value]: Set the reputation of a cation to the specified value.
+
+setsalary
+setsalary [0-100] [character/default]: Sets the salary of a certain character or the default salary to a percentage.
+
+setskill
+setskill [all/identifier] [max/level] [character]: Set your skill level.
+
+showkarma
+showkarma: Show the current karma values of the players.
+
+showmoney
+showmoney: Shows the amount of money in everyones wallet.
+
+showmonsters
+Permanently unlocks all the monsters in the character editor. Use "hidemonsters" to undo.
+
+showperm
+showperm [id/steamid/endpoint/name]: Shows the current administrative permissions of the specified client.
+
+showreputation
+showreputation: List the current reputation values.
+
+showseed
+showseed: Show the seed of the current level.
+
+shuttle
+shuttle [name]: Select the specified submarine as the respawn shuttle for the next round.
+
+simulatedduplicateschance
+simulatedduplicateschance [duplicateratio]: simulates packet duplication in network messages. For example, a value of 0.1 would mean there's a 10% chance a packet gets sent twice. Useful for simulating real network conditions when testing the multiplayer locally.
+
+simulatedlatency
+simulatedlatency [minimumlatencyseconds] [randomlatencyseconds]: applies a simulated latency to network messages. Useful for simulating real network conditions when testing the multiplayer locally.
+
+simulatedloss
+simulatedloss [lossratio]: applies simulated packet loss to network messages. For example, a value of 0.1 would mean 10% of the packets are dropped. Useful for simulating real network conditions when testing the multiplayer locally.
+
+skipeventcooldown
+skipeventcooldown: Skips the currently active event cooldown and triggers pending monster spawns immediately.
+
+spawn
+spawn [creaturename/jobname] [near/inside/outside/cursor] [team] [add to crew (true/false)]: Spawn a creature at a random spawnpoint (use the second parameter to only select spawnpoints near/inside/outside the submarine). You can also enter the name of a job (e.g. "Mechanic") to spawn a character with a specific job and the appropriate equipment.
+生成 类型/职业 位置 旁边/船内/船外/准心 队伍1自己人_队伍2敌人_友好货人 是否为船员
+
+spawnitem
+spawnitem [itemname/itemidentifier] [cursor/inventory/cargo/random/[name]] [amount] [condition]: Spawn an item at the position of the cursor, in the inventory of the controlled character, in the inventory of the client with the given name, or at a random spawnpoint if the location parameter is omitted or "random".
+
+spawnnpc
+spawnnpc [any/npcsetidentifier] [npcidentifier] [near/inside/outside/cursor] [team (0-3)] [add to crew (true/false)]: Spawns an pre-configured NPC at a random spawnpoint. (Use the third parameter to select a specific set of spawnpoints.)
+
+startgame
+start/startgame/startround: Start a new round.
+
+startitems
+start item set identifier
+
+startwhenclientsready
+startwhenclientsready [true/false]: Enable or disable automatically starting the round when clients are ready to start.
+
+sub
+submarine [name]: Select the submarine for the next round.
+
+tags
+tags: list all the tags used in the game
+
+teleportcharacter
+teleport [character name] [location]: Teleport the specified character to a location , or the position of the cursor if location is omitted. If the name parameter is omitted, the controlled character will be teleported.
+
+teleportsub
+teleportsub [start/end/endoutpost/cursor]: Teleport the submarine to the position of the cursor, or the start or end of the level. The 'endoutpost' argument also automatically docks the sub with the outpost at the end of the level. WARNING: does not take outposts into account, so often leads to physics glitches. Only use for debugging.
+
+toggleaitargets
+Toggle the visibility of AI targets (= targets that enemies can detect and attack/escape from) (client-only).
+
+togglecampaignteleport
+Toggle on/off teleportation between campaign locations by double clicking on the campaign map.
+
+togglecharacternames
+Toggle the names hovering above characters on/off (client-only).
+
+togglehud
+Toggle the character HUD (inventories, icons, buttons, etc) on/off (client-only).
+
+toggleitemhighlights
+Toggle the item highlight effect on/off (client-only).
+
+togglekarma
+togglekarma: Toggle the karma system on/off.
+
+togglekarmatestmode
+togglekarmatestmode: Toggle the karma test mode on/off. When test mode is enabled, clients get notified when their karma value changes (including the reason for the increase/decrease) and the server doesn't ban clients whose karma decreases below the ban threshold.
+
+toggleupperhud
+Toggle the upper part of the ingame HUD (chatbox, crewmanager) on/off (client-only).
+
+togglevoicechatfilters
+Toggle the radio/muffle filters in the voice chat (client-only).
+
+traitorlist
+traitorlist: List all the traitors and their current objectives.
+列出所有叛徒与其任务
+
+triggerevent
+triggerevent [identifier]: Trigger an event based on identifier.
+
+triggertraitorevent
+triggertraitorevent [eventidentifier]: Skip the initial delay of the traitor events and start one immediately. You can optionally specify which event to start (otherwise a random event is chosen).
+
+unban
+unban [name]: Unban a specific client.
+
+unbanaddress
+unbanaddress [endpoint]: Unban a specific endpoint.
+
+unlockmission
+unlockmission [identifier/tag]: Unlocks a mission in a random adjacent level.
+
+unlocktalents
+unlocktalents [all/[jobname]] [character]: give the specified character all the talents of the specified class
+
+unmute
+unmute [name]: Allow the client to speak through the voice chat.
+
+verboselogging
+verboselogging: Toggle verbose console logging on/off. When on, additional debug information is written to the debug console.
+
+water
+water/editwater: Toggle water editing. Allows adding water into rooms by holding the left mouse button and removing it by holding the right mouse button.
+
+
+
+
